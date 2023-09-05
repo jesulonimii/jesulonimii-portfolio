@@ -12,7 +12,7 @@ export default function HomeClient() {
 
 
 	return (
-		<main className="h-full py-12 px-32 smd:px-44 flex flex-col gap-y-8">
+		<main className="h-full py-32 px-32 smd:px-44 flex flex-col gap-y-8">
 
 
 			<HeroSection />

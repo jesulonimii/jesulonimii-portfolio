@@ -28,7 +28,7 @@ function AnimationWorksSection({}) {
 				<p>I give life to designs through ...</p>
 
 				<Heading>
-					Animations and Motion Graphics
+					Logo Animations and Motion Graphics
 					<span className="text-primary">  Designs!</span>
 				</Heading>
 

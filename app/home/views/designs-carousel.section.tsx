@@ -33,7 +33,7 @@ function DesignsCarouselsSection({}) {
 				</Heading>
 
 				<Link className="w-full max-w-[80%] mt-8" href="/projects/design">
-					<CustomButton className="w-full" data-blobity-invert="true">
+					<CustomButton animatedHover className="w-full" data-blobity-invert="true">
 						View Design Projects
 					</CustomButton>
 				</Link>
