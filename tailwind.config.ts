@@ -1,20 +1,31 @@
-import type { Config } from 'tailwindcss'
+const {COLORS} = require("./app/shared/utils") ;
 
-const config: Config = {
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: 'class',
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
+    fontFamily: {
+      'outfit': ['Outfit'],
+      'sans': ['Titillium Web', 'Inter'],
+    },
     extend: {
+      colors: {
+        ...COLORS,
+      },
+      screens: {
+        'smd': '1160px',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+            'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
   },
   plugins: [],
 }
-export default config
