@@ -4,25 +4,21 @@ import Marquee from "react-fast-marquee"
 import Heading from "@components/Heading"
 import CustomButton from "@ui/forms/CustomButton"
 import Link from "next/link"
+import { useEffect, useState } from "react"
 
 //@ts-ignore
 const imagesInFolder = require.context("@app/../public/images/designs", false, /\.(png|jpe?g|svg)$/)
-const imageList = imagesInFolder.keys().map(image => imagesInFolder(image))
+const imagesInFolderParsed = imagesInFolder.keys().filter(name => !name.includes("app"))
+
+const imageList = imagesInFolderParsed.map(image => imagesInFolder(image).default)
+
+
+
 
 function DesignsCarouselsSection({}) {
 
-	//@ts-ignore
-	const imagesInFolder = require.context("@app/../public/images/designs", false, /\.(png|jpe?g|svg)$/)
-	const images = imagesInFolder.keys().map(image => imagesInFolder(image).default)
+	const [images, setImages] = useState(imageList)
 
-
-	const images2 = [
-		"/greybox.jpg",
-		"/lm7.jpg",
-		"/qps.jpg",
-		"/swiss.jpg",
-		"/zcamp.jpg",
-	]
 
 	return (
 		<section className="flex gap-10 justify-between my-[8%] items-center">

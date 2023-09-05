@@ -15,7 +15,7 @@ const Providers = ({ children }) => {
 	const [theme, setTheme] = useState("");
 
 
-	const blobity = useBlobity(blobityConfig);
+	//const blobity = useBlobity(blobityConfig);
 
 
 	useEffect(() => {

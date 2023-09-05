@@ -2,7 +2,8 @@ import "@assets/fonts/fonts.css";
 import Providers from "@/app/providers";
 import { COLORS } from "@utils";
 import { Metadata } from "next";
-import NavBar from "@components/NavBar";
+import ThemeBar from "@components/ThemeBar";
+import Header from "@components/Header"
 
 const site_owner = "Jesulonimii";
 const title = "William Jesulonimi Abodunrin's Portfolio";
@@ -35,8 +36,9 @@ export default function RootLayout({ children }) {
 	return (
 		<Providers>
 			<body className={"font-sans bg-white dark:bg-bg-dark text-text-base dark:text-text-base-dark"}>
+				<Header/>
 				{children}
-				<NavBar />
+				<ThemeBar />
 			</body>
 		</Providers>
 	);

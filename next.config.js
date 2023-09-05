@@ -5,6 +5,10 @@ const nextConfig = {
             test: /\.svg$/,
             use: ["@svgr/webpack"],
         });
+        config.module.rules.push({
+            test: /\.mp4$/,
+            use: 'file-loader?name=videos/[name].[ext]',
+        },);
 
         return config;
     },

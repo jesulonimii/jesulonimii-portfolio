@@ -14,7 +14,7 @@ function HeroSection({}) {
 	
 
 	return (
-		<section className="flex gap-10 justify-between  w-fit">
+		<section className="flex gap-10 justify-between  w-fit relative">
 
 			<div className="w-[50%] h-fit flex flex-col gap-3">
 
@@ -70,7 +70,7 @@ function HeroSection({}) {
 
 			</div>
 
-			<CardLayout className="w-[50%] h-full p-0 bg-[url('/hero.png')] bg-center bg-cover bg-no-repeat"
+			<CardLayout className="w-[50%] block grow p-0 bg-[url('/hero.png')] bg-center bg-cover bg-no-repeat"
 						data-blobity-tooltip="@Jesulonimii 😎"
 						data-blobity-invert="false"/>
 
