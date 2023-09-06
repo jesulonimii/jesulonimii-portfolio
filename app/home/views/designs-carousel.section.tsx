@@ -6,18 +6,23 @@ import CustomButton from "@ui/forms/CustomButton"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 
-//@ts-ignore
-const imagesInFolder = require.context("@app/../public/images/designs", false, /\.(png|jpe?g|svg)$/)
-const imagesInFolderParsed = imagesInFolder.keys().filter(name => !name.includes("app"))
 
-const imageList = imagesInFolderParsed.map(image => imagesInFolder(image).default)
 
 
 
 
 function DesignsCarouselsSection({}) {
 
-	const [images, setImages] = useState(imageList)
+	const [images, setImages] = useState([])
+
+	useEffect(() => {
+		//@ts-ignore
+		const imagesInFolder = require.context("@app/../public/images/designs", false, /\.(png|jpe?g|svg)$/)
+		const imagesInFolderParsed = imagesInFolder.keys().filter(name => !name.includes("app"))
+
+		const imageList = imagesInFolderParsed.map(image => imagesInFolder(image).default)
+		setImages(imageList)
+	}, [])
 
 
 	return (
@@ -32,11 +37,11 @@ function DesignsCarouselsSection({}) {
 					<span className="text-primary"> Designs!</span>
 				</Heading>
 
-				<Link className="w-full max-w-[80%] mt-8" href="/projects/design">
+				{/*<Link className="w-full max-w-[80%] mt-8" href="/projects/design">
 					<CustomButton animatedHover className="w-full" data-blobity-invert="true">
 						View Design Projects
 					</CustomButton>
-				</Link>
+				</Link>*/}
 
 
 			</div>

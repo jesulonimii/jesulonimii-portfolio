@@ -19,7 +19,7 @@ export default  {
     ["bg-dark-50"]: "#1a1919",
 
 
-    // => bg
+    // => text
     ["text-base"]: "#151515",
     ["text-emphasis"]: "#000",
     ["text-base-dark"]: "#c5c5c5",

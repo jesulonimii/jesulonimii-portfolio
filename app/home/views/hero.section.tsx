@@ -16,7 +16,7 @@ function HeroSection({}) {
 	return (
 		<section className="flex gap-10 justify-between  w-fit relative">
 
-			<div className="w-[50%] h-fit flex flex-col gap-3">
+			<div id="#about" className="w-[50%] h-fit flex flex-col gap-3">
 
 				<h1 className="text-lg">
 					<p>Hi 👋, I am <Emphasize>{name}</Emphasize>.</p>
@@ -29,12 +29,16 @@ function HeroSection({}) {
 				</h1>
 
 				<div className="flex w-full gap-2">
-					<CustomButton variant="outlined" className="w-full">
-						View Resume
-					</CustomButton>
-					<CustomButton disabled variant="outlined" className="w-full" data-blobity-tooltip="Coming Soon...">
-						Blog
-					</CustomButton>
+					<Link className="w-full" target="_blank" href="/Resume-William-Abodunrin.pdf">
+						<CustomButton variant="outlined" className="w-full">
+							View Resume
+						</CustomButton>
+					</Link>
+					<Link className="w-full" target="_blank" href="https://jesulonimii.hashnode.dev/">
+						<CustomButton variant="outlined" className="w-full" data-blobity-tooltip="Coming Soon...">
+							Blog
+						</CustomButton>
+					</Link>
 				</div>
 
 

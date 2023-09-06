@@ -1,5 +1,12 @@
+import clsx, { ClassValue } from "clsx"
+import { twMerge } from "tailwind-merge"
+
 export { default as blobityConfig } from "./blobity.config";
 export { default as COLORS } from "./colors";
+
+export function cn(...inputs: ClassValue[]) {
+	return twMerge(clsx(inputs));
+}
 
 export const HEX2RGBA = (hex, alpha = 1) => {
 	if (hex.length < 6 || hex.length > 7) {

@@ -43,6 +43,7 @@ const Providers = ({ children }) => {
 				<Script
 					src="https://app.aichatbot.so/scripts/aichatbotso-widget.js"
 					type="text/javascript"
+					data-width="30%"
 					data-name="aichatbotso"
 					data-address="https://app.aichatbot.so"
 					data-id="6892cecd-091a-41fc-9352-3694fff797df" >
