@@ -1,13 +1,8 @@
 import CardLayout from "@layouts/Card.layout"
-import Image from "next/image"
 import Marquee from "react-fast-marquee"
 import Heading from "@components/Heading"
-import CustomButton from "@ui/forms/CustomButton"
-import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 import VisibilitySensor from "react-visibility-sensor"
-
-
 
 
 function AnimationWorksSection({}) {
@@ -38,9 +33,9 @@ function AnimationWorksSection({}) {
 	}, [])
 
 	return (
-		<section className="flex flex-row-reverse gap-10 justify-between my-[8%] items-center">
+		<section className="flex flex-col md:flex-row-reverse gap-10 justify-between my-[8%] items-center">
 
-			<div className="w-[40%] flex flex-col gap-1">
+			<div className="w-full md:w-[40%] flex flex-col gap-1">
 
 				<p>I give life to designs through ...</p>
 
@@ -58,7 +53,7 @@ function AnimationWorksSection({}) {
 
 			</div>
 
-			<CardLayout className="p-0 h-fit w-[60%] flex flex-col">
+			<CardLayout className="p-0 h-fit w-full md:w-[60%] flex flex-col">
 
 				<div className="w-full h-fit bg-bg-50 dark:bg-bg-dark-50 justify-between flex flex-col gap-4">
 					<Marquee pauseOnHover speed={50}>

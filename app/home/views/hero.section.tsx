@@ -4,7 +4,6 @@ import * as Lucide from "lucide-react"
 import Link from "next/link"
 import BgPattern from "@ui/BgPattern"
 import IconStyled from "@components/IconStyled"
-import Image from "next/image"
 import Owner from "@/app/owner"
 import CustomButton from "@ui/forms/CustomButton"
 
@@ -14,9 +13,9 @@ function HeroSection({}) {
 	
 
 	return (
-		<section className="flex gap-10 justify-between  w-fit relative">
+		<section className="flex flex-col md:flex-row gap-10 justify-between w-full md:w-fit relative">
 
-			<div id="#about" className="w-[50%] h-fit flex flex-col gap-3">
+			<div id="#about" className="w-full md:w-[50%] h-fit flex flex-col gap-3">
 
 				<h1 className="text-lg">
 					<p>Hi 👋, I am <Emphasize>{name}</Emphasize>.</p>
@@ -74,7 +73,7 @@ function HeroSection({}) {
 
 			</div>
 
-			<CardLayout className="w-[50%] block grow p-0 bg-[url('/hero.png')] bg-center bg-cover bg-no-repeat"
+			<CardLayout className="hidden md:flex w-full md:w-[50%] block grow p-0 bg-[url('/hero.png')] bg-center bg-cover bg-no-repeat"
 						data-blobity-tooltip="@Jesulonimii 😎"
 						data-blobity-invert="false"/>
 
