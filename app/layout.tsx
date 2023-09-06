@@ -1,14 +1,14 @@
-import "@assets/fonts/fonts.css";
-import Providers from "@/app/providers";
-import { COLORS } from "@utils";
-import { Metadata } from "next";
-import ThemeBar from "@components/ThemeBar";
+import "@assets/fonts/fonts.css"
+import Providers from "@/app/providers"
+import { COLORS } from "@utils"
+import { Metadata } from "next"
+import ThemeBar from "@components/ThemeBar"
 import Header from "@components/Header"
 
 const site_owner = "Jesulonimii";
 const title = "William Jesulonimi Abodunrin's Portfolio";
 const description = "Jesulonimi is a software engineer.";
-const OgImage = "/images/og-image.png";
+const OgImage = "/images/brand-screen.png";
 const portfolio_url = process.env.NEXT_PUBLIC_SITE_URL;
 
 export const metadata: Metadata = {
