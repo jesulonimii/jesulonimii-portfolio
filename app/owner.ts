@@ -73,10 +73,10 @@ const owner = {
 		{
 			name: "Cineflix",
 			description: "Frontend web app design of a movie streaming web-app.",
-			tech: ["Java", "Kotlin", "Android SDK", "Firebase", "NodeJS"],
+			tech: ["Vue"],
 			links: {
 				website: null,
-				github: "https://github.com/Aprihive/Aprihive-App-Kotlin",
+				github: "https://github.com/jesulonimii/cineflix",
 			},
 			image: "/images/projects/cineflix.png",
 		}

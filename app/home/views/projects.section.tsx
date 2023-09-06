@@ -53,7 +53,7 @@ function BrandDisplaySection({}) {
 									}
 									{
 										project.links.website && (
-											<a href={project.links.github} target="_blank" className="flex gap-1 items-center">
+											<a href={project.links.website} target="_blank" className="flex gap-1 items-center">
 												<Globe className="w-5 text-primary" />
 												View Live Link
 											</a>
