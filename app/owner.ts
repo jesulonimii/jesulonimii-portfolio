@@ -20,7 +20,7 @@ const owner = {
 
 	// Projects
 	projects: [
-		{
+		/*{
 			name: "AI Chatbot",
 			description: "Frontend development for AI Chatbot, an AI powered conversational chatbot builder for customer service.",
 			tech: ["React", "Typescript"],
@@ -29,7 +29,7 @@ const owner = {
 				github: null,
 			},
 			image: "/images/projects/aichatbot.png",
-		},
+		},*/
 		{
 			name: "HealthDB",
 			description: "Web, Mobile App and Backend development for HealthDB, a health management system that lets you manage your health records, book appointments with doctors, and get health news.",
