@@ -1,12 +1,12 @@
 "use client";
 
-import "@assets/globals.css";
-import { useEffect, useState } from "react";
-import { DarkTheme } from "@context";
-import { IconlyProvider } from "react-iconly";
+import "@assets/globals.css"
+import { useEffect, useState } from "react"
+import { DarkTheme } from "@context"
+import { IconlyProvider } from "react-iconly"
 import { blobityConfig, COLORS } from "@utils"
-import useBlobity from "blobity/lib/react/useBlobity";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import useBlobity from "blobity/lib/react/useBlobity"
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import Script from "next/script"
 
 const queryClient = new QueryClient();
@@ -46,7 +46,7 @@ const Providers = ({ children }) => {
 					data-width="30%"
 					data-name="aichatbotso"
 					data-address="https://app.aichatbot.so"
-					data-id="6892cecd-091a-41fc-9352-3694fff797df" >
+					data-id="9426249b-4fba-4a9e-bff9-1baaf436cac6" >
 				</Script>
 
 				{/*@ts-ignore*/}
