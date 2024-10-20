@@ -19,11 +19,11 @@ export default function HomeClient() {
 
 			<TechStackSection />
 
+			<ProjectsSection/>
+
 			<DesignsCarouselSection />
 
 			<AnimationWorksSection />
-
-			<ProjectsSection/>
 
 			<FooterSection/>
 

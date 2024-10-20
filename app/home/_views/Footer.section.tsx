@@ -3,7 +3,6 @@ import Owner from "@/owner"
 import React from "react"
 
 function FooterSection({}) {
-
 	const { projects } = Owner
 
 
