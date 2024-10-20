@@ -1,6 +1,6 @@
 "use client"
 import ThemeSwitch from "@ui/ThemeSwitch";
-import CardLayout from "@layouts/Card.layout";
+import CardLayout from "@commons/layouts/Card.layout";
 import { BrandIcon } from "@assets/images"
 import Link from "next/link"
 import { useRouter } from "next/navigation"

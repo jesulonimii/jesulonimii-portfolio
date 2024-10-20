@@ -1,21 +1,11 @@
-import Emphasize from "@components/Emphasize"
-import CardLayout from "@layouts/Card.layout"
-import * as Lucide from "lucide-react"
-import Link from "next/link"
-import BgPattern from "@ui/BgPattern"
-import IconStyled from "@components/IconStyled"
-import Image from "next/image"
-import Owner from "@/app/owner"
-import CustomButton from "@ui/forms/CustomButton"
-import { CodeBracketIcon } from "@heroicons/react/24/outline"
+import CardLayout from "@commons/layouts/Card.layout"
+import Owner from "@/owner"
 import React from "react"
-import Heading from "@components/Heading"
-import { Github, Globe } from "lucide-react"
 
 function FooterSection({}) {
 
 	const { projects } = Owner
-	
+
 
 	return (
 		<section className="flex flex-col gap-10 justify-between my-4">
@@ -35,8 +25,7 @@ function FooterSection({}) {
 
 			<CardLayout className="p-0 h-[40vh] w-full bg-[url('/brand-screen.png')] bg-center bg-cover"
 						data-blobity-tooltip="The Jesulonimii Brand"
-						data-blobity-invert="true"/>
-
+						data-blobity-invert="true" />
 
 
 		</section>

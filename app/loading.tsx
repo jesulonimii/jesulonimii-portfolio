@@ -1,6 +1,6 @@
 "use client"
 import { BrandIcon } from "@assets/images"
-import CardLayout from "@layouts/Card.layout"
+import CardLayout from "@commons/layouts/Card.layout"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 

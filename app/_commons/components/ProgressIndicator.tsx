@@ -29,7 +29,7 @@ const ProgressIndicator = (props) => {
                 Array.from(Array(steps)).map((step, index)=>(
 
                     <div key={index} className="flex flex-row items-center justify-center ">
-                        <div onClick={()=>{isClickable(index) && setCurrent(index+1)}} key={index} className={`w-8 h-8 p-2 cursor-pointer text-white flex items-center justify-center font-outfit ${color(index+1)} rounded-full`}>
+                        <div onClick={()=>{isClickable(index) && setCurrent(index+1)}} key={index} className={`w-8 h-8 p-2 cursor-pointer text-primary-dark dark:text-white flex items-center justify-center font-outfit ${color(index+1)} rounded-full`}>
                             {index+1}
                         </div>
 

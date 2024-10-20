@@ -1,16 +1,16 @@
 import Emphasize from "@components/Emphasize"
-import CardLayout from "@layouts/Card.layout"
+import CardLayout from "@commons/layouts/Card.layout"
 import * as Lucide from "lucide-react"
 import Link from "next/link"
-import BgPattern from "@ui/BgPattern"
+import BgPattern from "@components/BgPattern"
 import IconStyled from "@components/IconStyled"
-import Owner from "@/app/owner"
-import CustomButton from "@ui/forms/CustomButton"
+import Owner from "@/owner"
+import CustomButton from "@components/CustomButton"
 
 function HeroSection({}) {
 
 	const { current_position, notice, current_work, name, socials } = Owner
-	
+
 
 	return (
 		<section className="flex flex-col md:flex-row gap-10 justify-between w-full md:w-fit relative">

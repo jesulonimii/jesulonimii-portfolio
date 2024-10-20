@@ -1,4 +1,4 @@
-import CardLayout from "@layouts/Card.layout"
+import CardLayout from "@commons/layouts/Card.layout"
 import Image from "next/image"
 import Marquee from "react-fast-marquee"
 import Heading from "@components/Heading"
@@ -11,8 +11,8 @@ function DesignsCarouselsSection({}) {
 
 	useEffect(() => {
 		//@ts-ignore
-		const imagesInFolder = require.context("@app/../public/images/designs", false, /\.(png|jpe?g|svg)$/)
-		const imagesInFolderParsed = imagesInFolder.keys().filter(name => !name.includes("app"))
+		const imagesInFolder = require.context("@/public/images/designs", false, /\.(png|jpe?g|svg)$/)
+		const imagesInFolderParsed = imagesInFolder.keys().filter((name: string) => !name.includes("app"))
 
 		const imageList = imagesInFolderParsed.map(image => imagesInFolder(image).default)
 		setImages(imageList)
