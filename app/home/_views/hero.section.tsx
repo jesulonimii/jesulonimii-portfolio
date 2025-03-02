@@ -6,11 +6,11 @@ import BgPattern from "@components/BgPattern"
 import IconStyled from "@components/IconStyled"
 import Owner from "@/owner"
 import CustomButton from "@components/CustomButton"
+import { MegaphoneIcon } from "@heroicons/react/24/outline"
 
 function HeroSection({}) {
 
 	const { current_position, notice, current_work, name, socials } = Owner
-
 
 	return (
 		<section className="flex flex-col md:flex-row gap-10 justify-between w-full md:w-fit relative">
@@ -22,9 +22,9 @@ function HeroSection({}) {
 					<p>I develop web and mobile applications using the <Emphasize>MERN</Emphasize> stack.</p>
 					<p>I also have a flair for <Emphasize>motion graphics</Emphasize> and <Emphasize>graphic
 						design</Emphasize> which i like to explore when i'm not coding.🎨</p>
-					<p>I currently work as
+					{/*<p>I currently work as
 						a <Emphasize>{current_position}</Emphasize> at <Emphasize>{current_work}</Emphasize> but
-						still available for freelance & contract opportunities.👨‍💻</p>
+						still available for freelance & contract opportunities.👨‍💻</p>*/}
 				</h1>
 
 				<div className="flex w-full gap-2">
@@ -63,8 +63,9 @@ function HeroSection({}) {
 					<BgPattern className="w-full stroke-primary-alt absolute -m-4" />
 
 					<div className="gap-2 pb-4 h-full justify-between flex flex-col text-lg text-white">
-						<IconStyled icon={"MegaphoneIcon"} color={"#1b82e8"}
-									className="h-10 w-10 -rotate-20" />
+						<div className={"rounded-xl p-2 w-10 h-10 flex items-center justify-center bg-blue-500/30"}>
+							<MegaphoneIcon />
+						</div>
 						{notice}
 					</div>
 

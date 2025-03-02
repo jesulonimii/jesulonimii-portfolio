@@ -1,3 +1,5 @@
+"use client"
+
 import CardLayout from "@commons/layouts/Card.layout"
 import Image from "next/image"
 import Marquee from "react-fast-marquee"

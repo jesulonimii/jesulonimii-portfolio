@@ -1,5 +1,3 @@
-"use client"
-
 import HeroSection from "@/app/home/_views/hero.section"
 import DesignsCarouselSection from "@/app/home/_views/designs-carousel.section"
 import TechStackSection from "@/app/home/_views/TechStack.section"

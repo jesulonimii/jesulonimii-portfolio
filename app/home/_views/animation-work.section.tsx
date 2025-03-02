@@ -1,3 +1,5 @@
+"use client"
+
 import CardLayout from "@commons/layouts/Card.layout"
 import Marquee from "react-fast-marquee"
 import Heading from "@components/Heading"

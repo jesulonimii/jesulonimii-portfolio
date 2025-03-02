@@ -1,9 +1,7 @@
+"use client"
 import React, { useEffect, useState } from "react"
 import { twMerge } from "tailwind-merge"
 import { GoogleIcon } from "@assets/icons"
-
-
-
 
 function TechStackSection({ className = "" }) {
 

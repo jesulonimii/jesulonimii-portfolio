@@ -6,16 +6,16 @@ const owner = {
 	current_position: "Mobile App Engineer",
 	current_work: "Clyp Technologies",
 
-	notice: "I am open to a new role as a Backend Developer. If you have any open positions that you think I would be a good fit for, please feel free to reach out to me.",
+	notice: "I am open to lucrative offers as a Backend Developer. If you have any open positions that you think I would be a good fit for, please feel free to reach out to me.",
 
 	// Social Media
 	socials: {
 		github: "https://github.com/jesulonimii",
 		twitter: "https://twitter.com/jesulonimii",
-		linkedin: "https://linkedin.com/in/jesulonimii",
+		//linkedin: "https://linkedin.com/in/jesulonimii",
 		mail: `mailto:jesulonimii.will@gmail.com`,
 		//facebook: "https://facebook.com/jesulonimii",
-		//instagram: "https://instagram.com/jesulonimii",
+		instagram: "https://instagram.com/jesulonimii",
 	},
 
 	// Projects
@@ -29,7 +29,7 @@ const owner = {
 			},
 			image: "/images/projects/pet-assign.png",
 		},
-		{
+		/*{
 			name: "MyChange",
 			description: "A fintech application that enables users to give, collect and save their change easily.",
 			tech: ["React Native", "Typescript", "Firebase", "NodeJs"],
@@ -37,7 +37,7 @@ const owner = {
 				website: "https://mychange.ng",
 			},
 			image: "/images/projects/mychange.png",
-		},
+		},*/
 		{
 			name: "Sollancer",
 			description: "Frontend development of a web3 web application that enables clients to find and hire talents for their projects using Solana.",
