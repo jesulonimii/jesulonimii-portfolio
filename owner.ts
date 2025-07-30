@@ -12,7 +12,7 @@ const owner = {
 	socials: {
 		github: "https://github.com/jesulonimii",
 		twitter: "https://twitter.com/jesulonimii",
-		//linkedin: "https://linkedin.com/in/jesulonimii",
+		linkedin: "https://linkedin.com/in/jesulonimii",
 		mail: `mailto:jesulonimii.will@gmail.com`,
 		//facebook: "https://facebook.com/jesulonimii",
 		instagram: "https://instagram.com/jesulonimii",
@@ -25,22 +25,51 @@ const owner = {
 			description: "Mobile App development of an e-community where pet owners and pet-enthusiasts can come to connect with other enthusiasts, seek mates for their pets, purchase and sell pet items amongst others.",
 			tech: ["React Native", "Typescript", "Socket.io"],
 			links: {
-				website: "https://petassign.com",
+				website: "https://play.google.com/store/apps/details?id=com.petassign.app",
 			},
 			image: "/images/projects/pet-assign.png",
 		},
-		/*{
+		{
 			name: "MyChange",
 			description: "A fintech application that enables users to give, collect and save their change easily.",
-			tech: ["React Native", "Typescript", "Firebase", "NodeJs"],
+			tech: ["React Native", "Typescript", "NodeJs"],
 			links: {
 				website: "https://mychange.ng",
 			},
 			image: "/images/projects/mychange.png",
-		},*/
+		},
+		{
+			name: "MyChange Business",
+			description: "A fintech application that enables businesses to collect and manage their change easily.",
+			tech: ["React", "Tailwind", "Typescript", "NodeJs"],
+			links: {
+				website: "https://business.mychange.ng",
+			},
+			image: "/images/projects/mychange-b.png",
+		},
+		{
+			name: "Pelrio",
+			description: "Frontend development for Pelrio, a cash management solution for businesses that helps them manage their cash flow, track expenses, and generate reports. I was also the creative lead for the look and feel of the website, and I also developed new features while maintaining existing ones.",
+			tech: ["React", "Typescript", "TailwindCSS", "Material UI"],
+			links: {
+				website: "https://pelrio.com",
+				github: null,
+			},
+			image: "/images/projects/pelrio.png",
+		},
+		{
+			name: "Ashdeck",
+			description: "Website design and development for Ashdeck, a productivity tool aimed at blocking distraction and improving focus on the browser.\nI was the creative lead for the look and feel of the website, and I also implemented the design using React and TailwindCSS.",
+			tech: ["React", "Typescript", "TailwindCSS"],
+			links: {
+				website: "https://ashdeck.com",
+				github: null,
+			},
+			image: "/images/projects/ashdeck.png",
+		},
 		{
 			name: "Sollancer",
-			description: "Frontend development of a web3 web application that enables clients to find and hire talents for their projects using Solana.",
+			description: "Frontend development of a web3 web application that enables clients to find and hire talents for their projects using Solana. Think upwork for web3.",
 			tech: ["React", "Typescript", "Phantom"],
 			links: {
 				website: "https://www.sollancer.com",
@@ -57,60 +86,7 @@ const owner = {
 			},
 			image: "/images/projects/aichatbot.png",
 		},
-		{
-			name: "Aprihive",
-			description: "Mobile app development of Aprihive, an online peer-to-peer marketing platform for students and young entrepreneurs.",
-			tech: ["Java", "Kotlin", "Android SDK", "Firebase", "NodeJS"],
-			links: {
-				website: null,
-				github: "https://github.com/Aprihive/Aprihive-App-Kotlin",
-			},
-			image: "/images/projects/aprihive.png",
-		},
-		{
-			name: "HealthDB",
-			description: "Web, Mobile App and Backend development for HealthDB, a health management system that lets you manage your health records, book appointments with doctors, and get health news.",
-			tech: ["React", "React Native", "NodeJs", "Express", "MongoDB"],
-			links: {
-				website: "https://healthdb.vercel.app",
-				github: "https://github.com/jesulonimii/HealthDB-App",
-			},
-			image: "/images/projects/healthdb.png",
-		},
-		{
-			name: "Kwibb Store",
-			description: "Mobile app development for Kwibb, an online e-commerce store.",
-			tech: ["React Native", "Javascript"],
-			hidden: true,
-			links: {
-				website: null,
-				github: "https://github.com/jesulonimii/kwibb",
-			},
-			image: "/images/projects/kwibb.png",
-		},
-		{
-			name: "ChatHub",
-			hidden: true,
-			description: "Frontend and backend development of Chathub an online real-time messaging platform.",
-			tech: ["VueJs", "ExpressJs", "NodeJS", "Socket.io"],
-			links: {
-				website: "https://chathub-jw.vercel.app",
-				github: "https://github.com/jesulonimii/ChatHub",
-			},
-			image: "/images/projects/chathub.png",
-		},
 
-		{
-			name: "Cineflix",
-			description: "Frontend web app design of a movie streaming web-app.",
-			tech: ["Vue"],
-			hidden: true,
-			links: {
-				website: null,
-				github: "https://github.com/jesulonimii/cineflix",
-			},
-			image: "/images/projects/cineflix.png",
-		},
 	],
 
 
