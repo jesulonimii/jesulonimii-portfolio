@@ -86,6 +86,7 @@ const owner = {
 			},
 			image: "/images/projects/aichatbot.png",
 		},
+		{ hidden: true },
 
 	],
 

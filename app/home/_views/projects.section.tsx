@@ -21,7 +21,7 @@ function BrandDisplaySection({}) {
 
 
 			{
-				projects?.filter((x) => !x.hidden).map((project, index) => {
+				projects?.filter((x) => (x.hidden !== true)).map((project, index) => {
 
 					return (
 						<CardLayout className={`h-[60vh] cursor-pointer w-full md:bg-center bg-cover group relative`}
