@@ -19,7 +19,7 @@ function HeroSection({}) {
 
 				<h1 className="text-lg">
 					<p>Hi 👋, I am <Emphasize>{name}</Emphasize>.</p>
-					<p>I develop web and mobile applications using the <Emphasize>MERN</Emphasize> stack.</p>
+					<p>I develop web and mobile applications using primarily <Emphasize>React, React Native, NodeJs (for backend)</Emphasize>, but I am very flexible and pick new technologies fast.</p>
 					<p>I also have a flair for <Emphasize>motion graphics</Emphasize> and <Emphasize>graphic
 						design</Emphasize> which i like to explore when i'm not coding.🎨</p>
 					{/*<p>I currently work as

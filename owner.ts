@@ -36,7 +36,16 @@ const owner = {
 			links: {
 				website: "https://mychange.ng",
 			},
-			image: "/images/projects/mychange.png",
+			image: "/images/projects/mychange-app.png",
+		},
+		{
+			name: "Clyppay",
+			description: "ClypPay is a fintech platform enabling users to seamlessly send, receive, and manage both cryptocurrency and fiat currencies globally. I contributed to the mobile app development, focusing on creating a smooth, secure, and intuitive user experience for transactions, account management, and virtual card setup.",
+			tech: ["React Native (Expo)", "Typescript", "Zustand"],
+			links: {
+				website: "https://clyppay.io",
+			},
+			image: "/images/projects/clyppay.png",
 		},
 		{
 			name: "MyChange Business",
@@ -45,7 +54,8 @@ const owner = {
 			links: {
 				website: "https://business.mychange.ng",
 			},
-			image: "/images/projects/mychange-b.png",
+			image: "/images/projects/mychange.png",
+			hidden: true
 		},
 		{
 			name: "Pelrio",
