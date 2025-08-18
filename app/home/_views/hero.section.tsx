@@ -74,7 +74,7 @@ function HeroSection({}) {
 
 			</div>
 
-			<CardLayout className="hidden md:flex w-full md:w-[50%] block grow p-0 bg-[url('/hero.png')] bg-center bg-cover bg-no-repeat"
+			<CardLayout className="hidden md:flex w-full md:w-[50%] block grow p-0 bg-[url('/hero-2.png')] bg-center bg-cover bg-no-repeat"
 						data-blobity-tooltip="@Jesulonimii 😎"
 						data-blobity-invert="false"/>
 
